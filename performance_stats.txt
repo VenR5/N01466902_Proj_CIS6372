@@ -1,0 +1,99 @@
+Model Performance Statistics
+==========================
+
+Training Results:
+----------------
+
+baseline:
+Final Accuracy: 98.85%
+Final F1 Score: 0.9885
+Final Loss: 0.0152
+
+gradient_clip:
+Final Accuracy: 98.74%
+Final F1 Score: 0.9874
+Final Loss: 0.0189
+
+differential_privacy:
+Final Accuracy: 97.54%
+Final F1 Score: 0.9754
+Final Loss: 0.0798
+
+adversarial:
+Final Accuracy: 99.15%
+Final F1 Score: 0.9915
+Final Loss: 0.0527
+
+distilled:
+Final Accuracy: 98.92%
+Final F1 Score: 0.9892
+Final Loss: 0.0184
+
+Reconstruction Metrics (Basic Attack):
+-----------------------------------
+
+baseline:
+MSE: 1.8312
+SSIM: -0.0532
+
+gradient_clip:
+MSE: 1.8753
+SSIM: -0.0289
+
+differential_privacy:
+MSE: 1.9292
+SSIM: -0.0052
+
+adversarial:
+MSE: 1.8830
+SSIM: 0.0098
+
+distilled:
+MSE: 1.8015
+SSIM: -0.0687
+
+Reconstruction Metrics (DLG Attack):
+-----------------------------------
+
+baseline:
+MSE: 1.6100
+SSIM: -0.1376
+
+gradient_clip:
+MSE: 1.5510
+SSIM: -0.1427
+
+differential_privacy:
+MSE: 1.6748
+SSIM: -0.1296
+
+adversarial:
+MSE: 1.8157
+SSIM: -0.0732
+
+distilled:
+MSE: 1.5724
+SSIM: -0.1616
+
+Reconstruction Metrics (iDLG Attack):
+-----------------------------------
+
+baseline:
+MSE: 1.7886
+SSIM: 0.0240
+
+gradient_clip:
+MSE: 1.6845
+SSIM: -0.0378
+
+differential_privacy:
+MSE: 1.8170
+SSIM: -0.0131
+
+adversarial:
+MSE: 1.6940
+SSIM: -0.0185
+
+distilled:
+MSE: 1.7310
+SSIM: -0.0161
